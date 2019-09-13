@@ -6,6 +6,8 @@ a function to augment images by adding 'sprinkles' of chosen size and type.
 
 Example use
 ```
+img = cv2.imread("image.png")
+
 black_sprinkles = sprinkles(img, size=5, perc=0.1)
 frosted_sprinkles = sprinkles(img, size=10, perc=0.1, style='frosted')
 mean_sprinkles = sprinkles(img, size=15, perc=0.1, style='mean')
