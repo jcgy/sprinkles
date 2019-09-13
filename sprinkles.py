@@ -1,3 +1,8 @@
+import cv2
+import matplotlib.pyplot as plt
+import numpy as np
+import random
+
 def sprinkles(img, size, perc, style='black'):
     """Produces 'sprinkles' image augmentation on input
     see: https://medium.com/@lessw/progressive-sprinkles-a-new-data-augmentation-for-cnns-and-helps-achieve-new-98-nih-malaria-6056965f671a
