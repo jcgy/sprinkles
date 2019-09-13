@@ -1,5 +1,5 @@
 # sprinkles
-Image augmentation function for keras
+Image augmentation function
 
 Based on [Less Wright's Medium post](https://medium.com/@lessw/progressive-sprinkles-a-new-data-augmentation-for-cnns-and-helps-achieve-new-98-nih-malaria-6056965f671a),
 a function to augment images by adding 'sprinkles' of chosen size and type.
