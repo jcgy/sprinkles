@@ -1,4 +1,6 @@
 import random
+import numpy as numpy
+
 
 def _sprinkles(x, size: int, perc: float, style='black', channels=3):
     """Produces 'sprinkles' image augmentation on input
